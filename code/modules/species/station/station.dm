@@ -232,13 +232,13 @@
 // 	min_age = 1
 // 	max_age = 300
 
-// 	description = "Commonly referred to (erroneously) as 'plant people', the Dionaea are a strange space-dwelling collective \
-// 	species hailing from Epsilon Ursae Minoris. Each 'diona' is a cluster of numerous cat-sized organisms called nymphs; \
-// 	there is no effective upper limit to the number that can fuse in gestalt, and reports exist	of the Epsilon Ursae \
-// 	Minoris primary being ringed with a cloud of singing space-station-sized entities.<br/><br/>The Dionaea coexist peacefully with \
-// 	all known species, especially the Skrell. Their communal mind makes them slow to react, and they have difficulty understanding \
-// 	even the simplest concepts of other minds. Their alien physiology allows them survive happily off a diet of nothing but light, \
-// 	water and other radiation."
+// 	description = "Commonly referred to (erroneously) as 'plant people', the Dionaea are a strange space-dwelling collective
+// 	species hailing from Epsilon Ursae Minoris. Each 'diona' is a cluster of numerous cat-sized organisms called nymphs;
+// 	there is no effective upper limit to the number that can fuse in gestalt, and reports exist	of the Epsilon Ursae
+// 	Minoris primary being ringed with a cloud of singing space-station-sized entities.<br/><br/>The Dionaea coexist peacefully with
+// 	all known species, especially the Skrell. Their communal mind makes them slow to react, and they have difficulty understanding
+// 	even the simplest concepts of other minds. Their alien physiology allows them survive happily off a diet of nothing but light,
+// 	water and other radiation.
 
 // 	has_organ = list(
 // 		BP_NUTRIENT = /obj/item/organ/internal/diona/nutrients,

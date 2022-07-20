@@ -80,7 +80,7 @@
 	**/
 	return 1
 
-//This saves the initial character, before its tweaked again
+//This saves the initial character, before its tweaked again//Это сохраняет первоначальный характер, прежде чем его снова подправить
 /datum/preferences/proc/save_character()
 	SScharacter_setup.save_character(chosen_slot, client.ckey, create_initial_character())
 	character_list = list()
@@ -105,7 +105,7 @@
 		return 0
 	return player_setup.update_setup(preferences, character)
 
-//Make the new email, and bank accounts for the new character
+//Make the new email, and bank accounts for the new character//Создайте новую электронную почту и банковские счета для нового персонажа
 /datum/preferences/proc/setup_new_accounts(var/mob/living/carbon/human/H)
 	//Accounts
 	var/datum/computer_file/data/email_account/email = new()

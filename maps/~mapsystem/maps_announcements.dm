@@ -10,7 +10,7 @@
 	var/grid_check_message = "Abnormal activity detected in the %STATION_NAME%'s power system. As a precaution, the %STATION_NAME%'s power must be shut down for an indefinite duration."
 	var/grid_check_sound
 
-	var/grid_restored_message = "Station power to the %STATION_NAME% will be restored at this time. We apologize for the inconvenience."
+	var/grid_restored_message = "Электропитание станции %STATION_NAME% будет восстановлено в это время. Мы приносим извинения за причиненные неудобства."
 	var/grid_restored_sound
 
 	var/meteor_detected_message = "Meteors have been detected on a collision course with the %STATION_NAME%."

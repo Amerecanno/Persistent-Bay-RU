@@ -3,8 +3,8 @@
 	icon = 'icons/obj/objects.dmi'
 	icon_state = "floor_beaconf"
 	name = "Bluespace Gigabeacon"
-	desc = "A device that draws power from bluespace and creates a permanent tracking beacon."
-	level = 1		// underfloor
+	desc = "Устройство, получающее энергию из голубого пространства и создающее постоянный маяк слежения."
+	level = 1		// underfloor // под полом
 	anchored = 1
 	idle_power_usage = 0
 	var/obj/item/device/radio/beacon/Beacon

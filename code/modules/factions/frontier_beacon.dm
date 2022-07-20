@@ -1,6 +1,6 @@
 /obj/structure/frontier_beacon
 	name = "Frontier Beacon"
-	desc = "A huge bluespace beacon. The technology is unlike anything you've ever seen, but its apparent that this recieves teleportation signals from the gateway outside the frontier."
+	desc = "Огромный голубой космический маяк. Технология не похожа ни на что, что вы когда-либо видели, но очевидно, что он получает сигналы телепортации от шлюза за границей."
 	icon = 'icons/obj/stationobjs.dmi'
 	icon_state = "frontier_beacon"
 	anchored = TRUE
@@ -9,7 +9,7 @@
 	var/id = ""
 
 	var/citizenship_type
-	
+
 /obj/structure/frontier_beacon/New()
 	..()
 	GLOB.frontierbeacons |= src

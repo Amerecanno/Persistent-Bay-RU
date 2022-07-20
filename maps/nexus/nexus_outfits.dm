@@ -1,4 +1,4 @@
-//Outfits datum in use on the nexus map
+//Outfits datum in use on the nexus map// Дату отсчета, используемую на карте нексуса
 /decl/hierarchy/outfit/nexus
 	hierarchy_type = /decl/hierarchy/outfit/nexus
 	flags = OUTFIT_EXTENDED_SURVIVAL | OUTFIT_HAS_BACKPACK

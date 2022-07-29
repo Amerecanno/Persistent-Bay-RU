@@ -381,11 +381,11 @@
 
 /obj/structure/sign/atmosplaque
 	name = "\improper engineering memorial plaque"
-	desc = "This plaque memorializes those engineers and technicians who made the ultimate sacrifice to save their vessel and its crew."
+	desc = "Эта мемориальная доска посвящена тем инженерам и техникам, которые пожертвовали собой ради спасения своего судна и его экипажа."
 	icon_state = "atmosplaque"
 /obj/item/sign/atmosplaque
 	name = "\improper engineering memorial plaque"
-	desc = "This plaque memorializes those engineers and technicians who made the ultimate sacrifice to save their vessel and its crew."
+	desc = "Эта мемориальная доска посвящена тем инженерам и техникам, которые пожертвовали собой ради спасения своего судна и его экипажа."
 	icon_state = "atmosplaque"
 
 /obj/structure/sign/floorplaque

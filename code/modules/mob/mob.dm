@@ -1264,7 +1264,7 @@
 					record.linked_account.money = 1000
 					to_chat(usr, "Your account was broke. Ahelp admins to have your money restored, and reprint an ID. Account details: account number # [record.linked_account.account_number] pin # [record.linked_account.remote_access_pin]")
 	else
-		to_chat(src, "<span class='warning'>This verb may only be used by living mobs, sorry.</span>")
+		to_chat(src, "<span class='warning'>Этот глагол может быть использован только живыми мобами, извините.</span>")
 	return
 
 //For mobs with organs

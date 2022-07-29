@@ -1,6 +1,6 @@
 /obj/machinery/cryopod
 	name = "cryogenic freezer"
-	desc = "A man-sized pod for entering suspended animation. Takes one minutes to enter stasis."
+	desc = "Капсула размером с человека для вхождения в стазис. Вход в стазис занимает одну минуту."
 	icon = 'icons/obj/Cryogenic2.dmi'
 	icon_state = "cryopod_open"
 	density = 1

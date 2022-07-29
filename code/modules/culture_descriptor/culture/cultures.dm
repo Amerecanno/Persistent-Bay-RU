@@ -1,6 +1,6 @@
 /decl/cultural_info/culture/generic
 	name = CULTURE_OTHER
-	description = "You are from one of the many small, relatively unknown cultures scattered across the galaxy."
+	description = "Вы принадлежите к одной из множества небольших, относительно неизвестных культур, разбросанных по всей галактике."
 
 /decl/cultural_info/culture/human
 	name = CULTURE_HUMAN
@@ -11,39 +11,43 @@
 
 /decl/cultural_info/culture/human/earth_poor
 	name = CULTURE_HUMAN_EARTH_POOR
-	description = "Automation has replaced the need for almost all basic labors in the Sol System. The billions who cant find a place \
-	in the new paradigm are known as the 'underclass'. You have been struggling to survive in one of the many areas where the underclass \
-	rule each other through violence and fear. Survival has hardened you and given you a set of skills the elites would never recognize. <br><b>You will start on the bottom floor of nexus as a resident. The area is tougher but you will enjoy more freedom from the government. You will not be able to vote in elections without gaining citizenship.</b>"
+	description = "Автоматизация заменила необходимость почти во всех основных видах труда в системе Сола. Миллиарды людей, которые не могут найти себе место \
+	в новой парадигме известны как 'низший класс'. Вы боролись за выживание в одной из многочисленных областей, где низший класс \
+	управляют друг другом с помощью насилия и страха. Выживание закалило вас и дало вам набор навыков, которые элита никогда не признает. <br><b>Вы начнете с нижнего этажа Нексуса в качестве жителя. Эта зона более жесткая, но вы будете пользоваться большей свободой от правительства. Вы не сможете голосовать на выборах без получения гражданства.</b>"
 	starting_citizenship = RESIDENT
+
 /decl/cultural_info/culture/human/earth_middle
 	name = CULTURE_HUMAN_EARTH_MIDDLE
-	description = "Society in the capital system is driven by untold millions of administrators, lesser academics, soldiers and functionaries that perform \
-	skilled or creative tasks that are not capable of being automated. You have acted in one of these middling roles with enough competence to maintain \
-	your standing within the Sol middle class. Everything you have could be taken if you voiced an unpopular opinion or if your role in society falls out of favor with the ruling elite."
+	description = "Общество в системе капитала управляется несметными миллионами администраторов, низших ученых, солдат и функционеров, которые выполняют \
+	квалифицированные или творческие задачи, которые не поддаются автоматизации. Вы выступали в одной из этих средних ролей с достаточной компетентностью, чтобы поддерживать \
+	ваше положение в среднем классе. Все, что у вас есть, может быть отнято, если вы выскажете непопулярное мнение или если ваша роль в обществе не понравится правящей элите."
 
 /decl/cultural_info/culture/human/earth_high
 	name = CULTURE_HUMAN_EARTH_HIGH
-	description = "At the top of the golden spires that hang over the sprawling underclass slums, a class of technocratic elites control the levers of power by referring decisions to annointed experts. \
-	Councils select amongst themselves who is most qualified to be running the grand instituions of Solgov. As a young student you were bright enough and charming enough to attend an exclusive academy of higher learning \
-	where graduates become minor members of the ruling elite. You have attained a position of some promiennce, but your actions and viewpoints are under constant scrutiny. Many people would benefit from your fall from grace."
+	description = "На вершине золотых шпилей, нависающих над разросшимися трущобами, класс технократической элиты контролирует рычаги власти, передавая решения назначенным экспертам. \
+	Советы выбирают между собой тех, кто наиболее квалифицирован для управления великими институтами Солгова. Будучи молодым студентом, вы были достаточно умны и очаровательны, чтобы посещать эксклюзивную академию высшего образования.\
+	где выпускники становятся второстепенными членами правящей элиты. Вы заняли видное положение, но ваши действия и взгляды находятся под постоянным наблюдением. Многие люди только выиграют от вашего падения с небес."
 
 /decl/cultural_info/culture/human/colonist
 	name = CULTURE_HUMAN_COLONY
-	description = "Between Earth and Sol are a handful of human colonies that have been the frontline in the many wars between SolGov and the Terran Federation. \
-	Both the SolGov and the Terran Federation lay claim to the entirety of human space, these border worlds being the easiest targets are often the first to be invaded by their military forces. \
-	These colonies are small, cramped and infected with crime and corrupt governance. You have found work but not safety, the wars and the gangs do not spare workers."
+	description = "Между Землей и Солом находится горстка человеческих колоний, которые были передовой линией в многочисленных войнах между СолГов и Терранской Федерацией. \
+	И СолГов, и Терранская Федерация претендуют на весь человеческий космос, и эти пограничные миры, будучи самыми легкими целями, часто первыми подвергаются вторжению их военных сил. \
+	Эти колонии маленькие, тесные и заражены преступностью и коррумпированным управлением. Вы нашли работу, но не безопасность, войны и банды не щадят рабочих"
+
 
 /decl/cultural_info/culture/human/agartha_middle
 	name = CULTURE_HUMAN_AGARTHA_MIDDLE
-	description = "In the capital system of the terrans, society is being carved out of the rampant jungles that cover the surface of Agartha. \
-	Constant development of the capital is hoisted by a billion-strong workforce that claims whatever people or resources aren't taken by the Terran warmachine. \
-	You have survived as an Agarthan worker, either unable or unwilling to join the Terran Military. You have food and shelter, but your work is dangerous and unrewarding. Without career military service, you are still a second class citizen."
+	description = "В столичной системе Террана, в буйных джунглях, покрывающих поверхность Агарты, создается общество. \
+	Постоянное развитие столицы поддерживается миллиардной рабочей силой, которая претендует на всех людей и ресурсы, не захваченные терранской военной машиной. \
+	Вы выжили в качестве агартского рабочего, не сумев или не захотев присоединитьси кров, но ваша работа опасна и не приносит вознаграждения. Без карьерной военной службы вы все еще гражданин второго сорта"
+
+
 
 /decl/cultural_info/culture/human/agartha_poor
 	name = CULTURE_HUMAN_AGARTHA_POOR
-	description = "On Agartha, anti-war and anti-state movements operate in the shadows despite the best efforts of the Terran secret police. Anyone who opposes the Terran Federation and its war effort in the \
-	'liberation' of the Sol Colonies and the seat of humanty of Earth are forced underground. Peaceful protest, anti-state espionage and violent unrest are all tactics of the various dissident movements. \
-	As a dissident in the Terran state, your views of the state or war have forced you to the absolute bottom of society. The secret police may already know of your involvement in these unlawful and persecuted groups, you live life in constant fear of the repercussions. <br><b>You will start on the bottom floor of nexus as a resident. The area is tougher but you will enjoy more freedom from the government. You will not be able to vote in elections without gaining citizenship.</b>"
+	description = "На Агарте антивоенные и антигосударственные движения действуют в тени, несмотря на все усилия терранской тайной полиции. Любой, кто выступает против Терранской Федерации и ее военных усилий в \
+	'Освобождение' колоний Сола и место обитания человечества на Земле уходят в подполье. Мирный протест, антигосударственный шпионаж и насильственные беспорядки - все это тактика различных диссидентских движений. \
+	Как диссидент в Терранском государстве, ваши взгляды на государство или войну заставили вас оказаться на абсолютном дне общества. Тайная полиция может уже знать о вашем участии в этих незаконных и преследуемых группах, вы живете в постоянном страхе перед последствиями. <br><b>Вы начнете с нижнего этажа Нексуса в качестве жителя. Эта зона более жесткая, но вы будете пользоваться большей свободой от правительства. Вы не сможете голосовать на выборах без получения гражданства.</b>"
 	starting_citizenship = RESIDENT
 
 

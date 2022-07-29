@@ -145,7 +145,7 @@ GLOBAL_LIST_EMPTY(neural_laces)
 	if(H.mind)
 		H.mind.transfer_to(lacemob)
 
-	to_chat(lacemob, SPAN_NOTICE("You feel slightly disoriented. Your conciousness suddenly shifts into a neural lace."))
+	to_chat(lacemob, SPAN_NOTICE("Вы чувствуете легкую дезориентацию. Ваше сознание внезапно переходит в нейронную флешку."))
 
 /obj/item/organ/internal/stack/proc/get_owner_name()
 	var/mob/M = get_owner()
@@ -502,12 +502,12 @@ GLOBAL_LIST_EMPTY(neural_laces)
 
 
 /obj/item/organ/internal/stack/proc/try_connect()
-	if(!owner) 
+	if(!owner)
 		return FALSE
 	faction = get_faction(connected_faction)
-	if(!faction || !faction.status) 
+	if(!faction || !faction.status)
 		return FALSE
-	
+
 	var/datum/computer_file/report/crew_record/record = faction.get_record(owner.real_name)
 	if(!record)
 		if(faction.get_leadername() == owner.real_name)

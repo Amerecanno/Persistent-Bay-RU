@@ -7,8 +7,8 @@
 	#include "../../code/modules/lobby_music/comet_haley.dm"
 	#include "../../code/modules/lobby_music/lysendraa.dm"
 
-	#include "nexus.dmm" // ЗАпустить стандартную карту
-//	#include "nexus_empty.dmm" //Запустить тестовую зону
+//	#include "nexus.dmm" // ЗАпустить стандартную карту
+	#include "nexus_empty.dmm" //Запустить тестовую зону
 
 	#include "_nexus_macros.dm"
 	#include "nexus_access.dm"

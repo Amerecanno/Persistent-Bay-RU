@@ -112,8 +112,8 @@
 		DAM_BOMB 	= 0)
 	closet_appearance = /decl/closet_appearance/crate/plastic
 	matter = list(MATERIAL_PLASTIC = 2*SHEET_MATERIAL_AMOUNT)
-	
-	
+
+
 /obj/structure/closet/crate/internals
 	name = "internals crate"
 	desc = "A internals crate."
@@ -208,7 +208,7 @@
 
 /obj/structure/closet/crate/bin
 	name = "large bin"
-	desc = "A large bin."
+	desc = "Большой мусорный бак."
 	mass = 8
 	max_health = 120
 	damthreshold_brute 	= 5

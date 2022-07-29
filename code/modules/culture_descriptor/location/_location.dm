@@ -20,25 +20,27 @@
 
 
 /decl/cultural_info/ambition
-	desc_type = "Ambition"
+	desc_type = "Амбиции"
 	category = TAG_AMBITION
 
 /decl/cultural_info/ambition/freedom
 	name = AMBITION_FREEDOM
-	description = "At the most desperate point of your life, you are approached by a cheerful recruiter looking for colonists for a faraway colony station. She gives a very elegant description \
-	of a colony with a culture of freedom and democracy. You have no choice but to accept. Whatever life you were living before was at its end. You are whisked away to a tiny space station \
-	as hooded doctors install the neural lace into your head. It will protect you, during the travel. The gateway to your new life is a consuming amber color. You step through it and feel utterly numb."
+	description = "В самый отчаянный момент вашей жизни к вам обращается жизнерадостный вербовщик, который ищет колонистов для далекой колонии. Она дает очень элегантное описание \
+	колонии с культурой свободы и демократии. У вас нет другого выбора, кроме как согласиться. Жизнь, которой вы жили до этого, подошла к концу. Вас увозят на крошечную космическую станцию.\
+	Врачи в капюшонах устанавливают нейрошнурок в вашу голову. Он будет защищать вас во время путешествия. Врата в вашу новую жизнь имеют янтарный цвет. Вы проходите через них и чувствуете полное оцепенение"
 
 /decl/cultural_info/ambition/opportunity
 	name = AMBITION_OPPORTUNITY
-	description = "That thing been chasing for a greater part of your life slips away finally. Your sunken ambition has left you humiliated and without purpose. Those who know you left long ago \
-	but a chance encounter forces you into a conversation with a polite recruiter. He can listen to your woes, but he only speaks of one thing. Opportunity. You cant help but accept after he describes \
-	a colony where anyone willing to put in the work can make a fortune and live free. You are whisked away to a tiny space station \
-	as hooded doctors install the neural lace into your head. It will protect you, during the travel. The gateway to your new life is a consuming amber color. You step through it and feel utterly numb."
+	description = "То, за чем вы гонялись большую часть жизни, наконец-то ускользает. Ваши утонувшие амбиции оставили вас униженным и лишенным цели. Те, кто знает вас, давно ушли.\
+	но случайная встреча заставляет вас вступить в разговор с вежливым рекрутером. Он может выслушать ваши жалобы, но говорит только об одном. О возможности. \
+	Вы не можете не согласиться после того, как он описывает \
+	колонии, где каждый, кто готов приложить усилия, может заработать состояние и жить на свободе. Вас увозят на крошечную космическую станцию.\
+	пока врачи в капюшонах устанавливают нейрошнурок в вашу голову. Он будет защищать вас во время путешествия.\
+	Врата в вашу новую жизнь имеют янтарный цвет. Вы проходите через них и чувствуете полное оцепенение"
 
 /decl/cultural_info/ambition/knowledge
 	name = AMBITION_KNOWLEDGE
-	description = "No entity  \
-	but a chance encounter forces you into a conversation with a polite recruiter. He can listen to your woes, but he only speaks of one thing. Opportunity. You cant help but accept after he describes \
-	a colony where anyone willing to put in the work can make a fortune and live free. You are whisked away to a tiny space station \
-	as hooded doctors install the neural lace into your head. It will protect you, during the travel. The gateway to your new life is a consuming amber color. You step through it and feel utterly numb."
+	description = "Ни одна организация \
+	но случайная встреча заставляет вас вступить в разговор с вежливым рекрутером. Он может выслушать ваши жалобы, но говорит только об одном. О возможности. Вы не можете не согласиться, когда он описывает \
+	колонии, где каждый, кто готов приложить усилия, может заработать состояние и жить на свободе. Вас увозят на крошечную космическую станцию.\
+	пока врачи в капюшонах устанавливают нейрошнурок в вашу голову. Он будет защищать вас во время путешествия. Врата в вашу новую жизнь имеют янтарный цвет. Вы проходите через них и чувствуете полное оцепенение"

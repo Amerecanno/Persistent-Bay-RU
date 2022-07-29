@@ -9,26 +9,26 @@
 	blood_mask =      'icons/mob/human_races/species/vox/blood_mask.dmi'
 
 	unarmed_types = list(
-		/datum/unarmed_attack/stomp, 
-		/datum/unarmed_attack/kick,  
-		/datum/unarmed_attack/claws/strong, 
-		/datum/unarmed_attack/punch, 
+		/datum/unarmed_attack/stomp,
+		/datum/unarmed_attack/kick,
+		/datum/unarmed_attack/claws/strong,
+		/datum/unarmed_attack/punch,
 		/datum/unarmed_attack/bite/strong
 	)
 	rarity_value = 4
-	description = "The Vox are the broken remnants of a once-proud race, now reduced to little more than \
-	scavenging vermin who prey on isolated stations, ships or planets to keep their own ancient arkships \
-	alive. They are four to five feet tall, reptillian, beaked, tailed and quilled; human crews often \
-	refer to them as 'shitbirds' for their violent and offensive nature, as well as their horrible \
-	smell. \
+	description = "Вокс - это разбитые остатки некогда гордой расы, которые теперь превратились в не более чем\
+	паразитов, которые охотятся на изолированные станции, корабли и планеты, чтобы поддерживать жизнь своих древних кораблей.\
+	живыми. Они имеют рост от четырех до пяти футов, рептилии, клюв, хвост и перья; человеческие экипажи часто \
+	называют их 'говнюками' за их жестокий и оскорбительный характер, а также за их ужасный запах.\
+	запах. \
 	<br/><br/> \
-	Most humans will never meet a Vox raider, instead learning of this insular species through \
-	dealing with their traders and merchants; those that do rarely enjoy the experience."
-	codex_description = "The Vox are a hostile, deeply untrustworthy species from the edges of human space. They prey \
-	on isolated stations, ships or settlements without any apparent logic or reason, and tend to refuse communications \
-	or negotiations except when their backs are to the wall or they are in dire need of resources. They are four to five \
-	feet tall, reptillian, beaked, tailed and quilled; human crews often refer to them as 'shitbirds' for their violent \
-	and offensive nature, as well as their horrible smell. \
+	Большинство людей никогда не встречаются с рейдерами Вокс, а узнают об этом замкнутом виде через торговцев.\
+	а те, кто встречает, редко получают удовольствие от общения с их торговцами и купцами"
+	codex_description = "Вокс - враждебный, глубоко недоверчивый вид с окраин человеческого космоса. Они охотятся \
+	на изолированные станции, корабли или поселения без всякой видимой логики или причины, и, как правило, отказываются от связи \
+	или переговоры, за исключением тех случаев, когда они прижаты спиной к стене или остро нуждаются в ресурсах. Они от четырех до пяти \
+	ростом от четырех до пяти футов, рептилии, клювастые, хвостатые и перьевые; человеческие команды часто называют их 'дерьмоптицами' за их жестокий\
+	и оскорбительный характер, а также их ужасный запах.\
 	<br/><br/> \
 	Standard procedure when dealing with a Vox: \
 	<ol> \

@@ -29,7 +29,7 @@ GLOBAL_LIST_EMPTY(all_docking_beacons)
 
 /obj/machinery/docking_beacon
 	name = "docking beacon"
-	desc = "Can be installed to provide a landing and launch zone for shuttles, and to facilitate the construction of shuttles.."
+	desc = "Может быть установлен для обеспечения зоны посадки и запуска шаттлов, а также для облегчения строительства шаттлов."
 	anchored = FALSE
 	density = 1
 	icon = 'icons/obj/machines/dock_beacon.dmi'

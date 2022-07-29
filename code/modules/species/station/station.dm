@@ -3,9 +3,9 @@
 	name_plural = "Humans"
 	primitive_form = SPECIES_MONKEY
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
-	description = "Humanity originated in the Sol system, a has spread colonies across a wide swathe of space. They hold a wide range of forms and creeds."
+	description = "Человечество зародилось в системе Сола и распространило свои колонии по всему космосу. Они придерживаются самых разных форм и вероисповеданий."
 	assisted_langs = list(LANGUAGE_NABBER)
-	min_age = 19
+	min_age = 18
 	max_age = 70
 	hidden_from_codex = FALSE
 	bandages_icon = 'icons/mob/bandage.dmi'

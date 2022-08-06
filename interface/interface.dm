@@ -48,7 +48,7 @@
 			return
 		src << link(config.discordurl)
 	else
-		to_chat(src, "<span class='danger'>The rules URL is not set in the server configuration.</span>")
+		to_chat(src, "<span class='danger'>https://discord.gg/ZgjJp7X6ed</span>")
 	return
 
 /client/verb/donate()

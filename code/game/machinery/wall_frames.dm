@@ -62,7 +62,7 @@
 
 /obj/item/frame/fire_alarm
 	name = "fire alarm frame"
-	desc = "Used for building fire alarms."
+	desc = "Используется для пожарной сигнализации зданий."
 	icon = 'icons/obj/monitors.dmi'
 	icon_state = "firex"
 	build_machine_type = /obj/machinery/firealarm
@@ -71,12 +71,12 @@
 	name = "air alarm frame"
 	icon = 'icons/obj/monitors.dmi'
 	icon_state = "alarm_bitem"
-	desc = "Used for building air alarms."
+	desc = "Используется для воздушной сигнализации зданий."
 	build_machine_type = /obj/machinery/alarm
 
 /obj/item/frame/light
 	name = "light fixture frame"
-	desc = "Used for building lights."
+	desc = "Используется для освещения зданий."
 	icon = 'icons/obj/lighting.dmi'
 	icon_state = "tube-construct-item"
 	build_machine_type = /obj/machinery/light_construct

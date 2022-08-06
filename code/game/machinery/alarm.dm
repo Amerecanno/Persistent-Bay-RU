@@ -46,7 +46,7 @@
 	clicksound 			= "button"
 	clickvol 			= 30
 	layer 				= ABOVE_WINDOW_LAYER
-	
+
 	id_tag 				= null
 	frequency			= AIRALARM_FREQ
 	radio_filter_in		= RADIO_TO_AIRALARM
@@ -80,7 +80,7 @@
 	var/pressure_dangerlevel = 0
 	var/oxygen_dangerlevel = 0
 	var/co2_dangerlevel = 0
-	var/co_dangerlevel = 0 
+	var/co_dangerlevel = 0
 	var/temperature_dangerlevel = 0
 	var/other_dangerlevel = 0
 
@@ -127,7 +127,7 @@
 		pixel_y = (dir & 3)? (dir ==1 ? -21 : 21) : 0
 		queue_icon_update()
 		frame.transfer_fingerprints_to(src)
-	
+
 	ADD_SAVED_VAR(remote_control)
 	ADD_SAVED_VAR(rcon_setting)
 	ADD_SAVED_VAR(shorted)
@@ -385,7 +385,7 @@
 	. = ..()
 	if(!alarm_area)
 		log_warning("\"[src]\"(\ref[src]) ([x], [y], [z]): has invalid alarm area \"[alarm_area]\", and receiving a signal..")
-		return 
+		return
 	if (alarm_area.master_air_alarm != src)
 		if (master_is_operating())
 			return
@@ -750,11 +750,11 @@
 
 					send_signal(device_id, list(href_list["command"] = text2num(href_list["val"]) ) )
 					return TOPIC_REFRESH
-				
+
 				if("gas_scrub")
 					send_signal(device_id, list(href_list["command"] = href_list["val"], "gas_scrub_state" = href_list["gas_scrub_state"] ))
 					return TOPIC_REFRESH
-				
+
 				if("adv_filtering")
 					filter_tweak_scrubber = href_list["id_tag"]
 					screen = AALARM_SCREEN_ADV_FILTER
@@ -940,5 +940,4 @@ Just a object used in constructing air alarms
 	desc = "Looks like a circuit. Probably is."
 	w_class = ITEM_SIZE_SMALL
 	matter = list(MATERIAL_STEEL = 50, MATERIAL_GLASS = 50)
-
 

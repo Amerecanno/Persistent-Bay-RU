@@ -2,7 +2,7 @@
 */
 /obj/machinery/air_sensor
 	name 			= "Gas Sensor"
-	desc 			= "A machine that constantly broadcast information on the ambient gases. Works via radio signals."
+	desc 			= "Машина, постоянно передающая информацию об окружающих газах. Работает посредством радиосигналов."
 	icon 			= 'icons/obj/machines/gassensor.dmi'
 	icon_state 		= "gsensor1"
 	anchored 		= FALSE
@@ -29,7 +29,7 @@
 	// 128 for reagent gas concentration
 
 	//Buffer list to transmit data on each process call
-	var/tmp/list/transmitted_data = list() 
+	var/tmp/list/transmitted_data = list()
 
 /obj/machinery/air_sensor/mapped
 	anchored = TRUE
@@ -45,7 +45,7 @@
 /obj/machinery/air_sensor/Process()
 	if(!has_transmitter() || !transmitter_ready() || inoperable() || isnull(loc))
 		return
-	
+
 	if(on && world.time >= time_next_broadcast)
 		var/datum/gas_mixture/air_sample = return_air()
 		transmitted_data["timestamp"] = world.time

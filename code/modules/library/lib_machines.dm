@@ -37,7 +37,7 @@
 
 /obj/machinery/libraryscanner/attack_hand(var/mob/user as mob)
 	usr.set_machine(src)
-	var/dat = "<HEAD><TITLE>Scanner Control Interface</TITLE></HEAD><BODY>\n" // <META HTTP-EQUIV='Refresh' CONTENT='10'>
+	var/dat = "<meta charset=\"UTF-8\"><HEAD><TITLE>Scanner Control Interface</TITLE></HEAD><BODY>\n" // <META HTTP-EQUIV='Refresh' CONTENT='10'>
 	if(cache)
 		dat += "<FONT color=#005500>Data stored in memory.</FONT><BR>"
 	else
@@ -101,8 +101,8 @@
 	covers["white"] = "book7"
 	covers["red"] = "book2"
 	RefreshParts()
-	
-	
+
+
 /obj/machinery/bookbinder/ui_interact(mob/user, ui_key = "main", var/datum/nanoui/ui = null, var/force_open = 1)
 	var/data[0]
 
@@ -184,7 +184,7 @@
 		book.title = title
 		book.name = title
 		book.icon_state = covers[cover]
-		
+
 	if(href_list["cover"])
 		var/potential_cover = input(user, "choose book cover", "choose book cover") as null|anything in covers
 		if(potential_cover)
@@ -192,8 +192,8 @@
 	src.add_fingerprint(usr)
 	src.updateUsrDialog()
 	return TOPIC_REFRESH
-		
-		
+
+
 /obj/machinery/bookbinder/attack_hand(var/mob/user)
 	ui_interact(user)
 

@@ -7,7 +7,7 @@
  */
 
 /obj/item/weapon/paper
-	name = "sheet of paper"
+	name = "листок бумаги"
 	gender = NEUTER
 	icon = 'icons/obj/items/paper.dmi'
 	icon_state = "paper"
@@ -43,7 +43,7 @@
 	var/const/fancyfont = "Segoe Script"
 
 	var/scan_file_type = /datum/computer_file/data/text
-	
+
 	var/info_links_fixed
 /obj/item/weapon/paper/New(loc, text, title, list/md = null)
 	..(loc)
@@ -116,7 +116,7 @@
 	if(!forceshow && istype(user,/mob/living/silicon/ai))
 		var/mob/living/silicon/ai/AI = user
 		can_read = get_dist(src, AI.camera) < 2
-	user << browse("<HTML><HEAD><TITLE>[name]</TITLE></HEAD><BODY bgcolor='[color]'>[can_read ? info : stars(info)][stamps]</BODY></HTML>", "window=[name]")
+	user << browse("<HTML><meta charset=\"UTF-8\"><HEAD><TITLE>[name]</TITLE></HEAD><BODY bgcolor='[color]'>[can_read ? info : stars(info)][stamps]</BODY></HTML>", "window=[name]")
 	onclose(user, "[name]")
 
 /obj/item/weapon/paper/verb/rename()
@@ -469,7 +469,7 @@
 		var/obj/item/weapon/paper_bundle/attacking_bundle = P
 		attacking_bundle.insert_sheet_at(user, (attacking_bundle.pages.len)+1, src)
 		attacking_bundle.update_icon()
-	else 
+	else
 		return ..()
 	add_fingerprint(user)
 

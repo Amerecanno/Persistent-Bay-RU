@@ -5,7 +5,7 @@
 #define SMESMAXOUTPUT 250000
 
 /obj/machinery/power/smes
-	name = "power storage unit"
+	name = "накопитель электроэнергии"
 	desc = "A high-capacity superconducting magnetic energy storage (SMES) unit."
 	icon_state = "smes"
 	density = 1
@@ -57,7 +57,7 @@
 	..()
 	if(!should_be_mapped)
 		warning("Non-buildable or Non-magical SMES at [src.x]X [src.y]Y [src.z]Z")
-	
+
 	ADD_SAVED_VAR(charge)
 	ADD_SAVED_VAR(input_attempt)
 	ADD_SAVED_VAR(input_level)

@@ -178,7 +178,7 @@ datum/controller/vote
 	proc/result()
 		. = announce_result()
 		var/restart = 0
-				
+
 
 		if(mode == "gamemode") //fire this even if the vote fails.
 			if(!round_progressing)
@@ -326,7 +326,7 @@ datum/controller/vote
 				trialmin = 1 // don't know why we use both of these it's really weird, but I'm 2 lasy to refactor this all to use just admin.
 		voting |= C
 
-		. = "<html><head><title>Voting Panel</title></head><body>"
+		. = "<html><meta charset=\"UTF-8\"><head><title>Voting Panel</title></head><body>"
 		if(mode)
 			if(question)	. += "<h2>Vote: '[question]'</h2>"
 			else			. += "<h2>Vote: [capitalize(mode)]</h2>"

@@ -41,7 +41,7 @@
 
 /client/verb/discord()
 	set name = "Discord"
-	set desc = "Join Our Discord, Talk with our community"
+	set desc = "Присоединяйтесь к нашему Discord, общайтесь с нашим сообществом"
 	set hidden = 1
 	if(config.discordurl)
 		if(alert("This will open the discord. Are you sure?",,"Yes","No")=="No")

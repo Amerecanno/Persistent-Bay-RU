@@ -1,6 +1,6 @@
 
 /datum/preferences
-	var/welcome_accept = 0
+	var/welcome_accept = 1
 
 /datum/category_item/player_setup_item/welcome
 	name = "Добро пожаловать в Persistent Station 13!"
@@ -22,7 +22,7 @@
     if(pref.welcome_accept)
         . += "<br><br><br><b>Вы готовы создать наследие в нашей общей вселенной.</b>"
     else
-        . += "<br><br><br><a href='?src=\ref[src];accept_welcome=1'>Я готов присоединиться к программе Persistence</a>"
+        . += "<br><br><br><a target='_blank' href='https://discord.gg/ZgjJp7X6ed' ?src=\ref[src];accept_welcome=1'>Я готов присоединиться к программе Persistence</a>"
     . += "</body>"
     . = jointext(.,null)
 

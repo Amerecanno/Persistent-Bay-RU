@@ -1,6 +1,6 @@
 
 /datum/preferences
-	var/welcome_accept = 1
+	var/welcome_accept = 0
 
 /datum/category_item/player_setup_item/welcome
 	name = "Добро пожаловать в Persistent Station 13!"
@@ -18,11 +18,11 @@
     . += "Persistence - это результат работы десятков разработчиков, администраторов и лидеров сообщества, потративших годы на создание лучшего сообщества, частью которого я когда-либо был. Я очень рад, что у вас есть шанс сыграть в эту совершенно уникальную игру."
     . += "<br><b><i>Brawler, Ведущий разработчик Persistence</i></b>"
     . += "</font><br><br>"
-    . += "<a href='https://discord.com/invite/ZgjJp7X6ed Присоединиться к Discord</a><br>Discord - это место, где происходит большинство OOC обсуждений, и тонны полезных игроков расскажут вам все о том, как играть в упорство и чем оно отличается."
+    . += "<a href='https://discord.com/invite/ZgjJp7X6ed'target='_blank'> Присоединиться к Discord</a><br>Discord - это место, где происходит большинство OOC обсуждений, и тонны полезных игроков расскажут вам все о том, как играть в упорство и чем оно отличается."
     if(pref.welcome_accept)
         . += "<br><br><br><b>Вы готовы создать наследие в нашей общей вселенной.</b>"
     else
-        . += "<br><br><br><a target='_blank' href='https://discord.gg/ZgjJp7X6ed' ?src=\ref[src];accept_welcome=1'>Я готов присоединиться к программе Persistence</a>"
+        . += "<br><br><br><a href='?src=\ref[src];accept_welcome=1'>Я готов присоединиться к программе Persistence</a>"
     . += "</body>"
     . = jointext(.,null)
 

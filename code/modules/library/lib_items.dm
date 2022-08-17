@@ -236,40 +236,40 @@
 		<center>\
 			<img src = nfrlogo.png>\
 			<br>\
-			<h1>Understanding Nexus City</h1><br>\
-			<span class='small-text'>A guide to the government and economy of Nexus City.</span><br>\
+			<h1>Понимание города Нексус</h1><br>\
+			<span class='small-text'>Руководство по правительству и экономике Нексус Сити. </span><br>\
 			<br>\
-			<span class='large-text'>Chapter 1: Introduction<br>\
-			Chapter 2: Government<br>\
-			Chapter 3: Business and Economy<br>\
-			Chapter 4: Government In-Depth<br>\
-			Chapter 5: Business and Economy In-Depth<br>\
-			Chapter 6: The City Charter</span>\
+			<span class='large-text'>Глава 1: Введение<br>\
+			Глава 2: Правительство<br>\
+			Глава 3: Бизнес и экономика<br>\
+			Глава 4: Правительство в деталях<br>\
+			Глава 5: Бизнес и экономика в деталях<br>\
+			Глава 6: Устав города</span>\
 		</center><br>\
 		<br>"
 
 /obj/item/weapon/paper/guidetonexustwo
-	info = "<h2>Chapter 1 - Introduction</h2><br>\
+	info = "<h2>Глава 1: Введение</h2><br>\
 		<br>\
-		Thank you for your interest in the structure, culture, economy and government of Nexus City. Your decision to read this guidebook shows your commitment to starting your life anew!<br>\
+		Благодарим вас за интерес к структуре, культуре, экономике и правительству города Нексус. Ваше решение прочитать этот путеводитель свидетельствует о вашем стремлении начать жизнь заново!<br>\
 		<br>\
-		If you are reading this, you are now a resident or citizen of Nexus City. You have been provided with an allowance of 1000$$, $$ being the symbol for our local currency the Centera. Utilizing this guide, the 1000$$ will go a long ways in starting your life in the city.<br>\
+		Если вы читаете это, значит, вы стали жителем или гражданином Нексус Сити. Вам было выдано пособие в размере 1000$$, $$ - символ нашей местной валюты - центурии. Используя это руководство, 1000$$ помогут вам начать жизнь в городе.<br>\
 		<br>\
-		The priority of new residents of the city should be finding employment in a corporation or the government of the city. There are many opportunities available, including business ownership, politics, government service and employment.<br>\
+		Приоритетом для новых жителей города должно стать трудоустройство в корпорации или правительстве города. Существует множество возможностей, включая владение бизнесом, политику, государственную службу и работу по найму.<br>\
 		<br>\
-		It is recommended you read the entire guidebook, however the government and business and economy chapters are split into a summary and in-depth chapters to allow for easier reading.<br>\
+		Рекомендуется прочитать весь справочник, однако главы о правительстве, бизнесе и экономике разделены на краткое содержание и углубленные главы, чтобы облегчить чтение.<br>\
 		<br>"
 
 /obj/item/weapon/paper/guidetonexusthree
-	info = "<h2>Chapter 2 - Government</h2><br>\
+	info = "<h2>Глава 2: Правительство</h2><br>\
 		<br>\
-		The government of Nexus City is governed by the Nexus City Charter, which is included in the final chapter.<br>\
+		Правительство города Нексус регулируется Уставом города Нексус, который включен в заключительную главу. <br>\
 		<br>\
-		The city government is democratic and representative in nature and function, with an elected City Council and Governor. Judges of the city are appointed by the Governor with approval of the City Council.<br>\
+		Правительство города является демократическим и представительным по своей природе и функциям, с выборным городским советом и губернатором. Судьи города назначаются губернатором с одобрения городского совета.<br>\
 		<br>\
-		City councilors and the Governor serve two week terms, and are elected on alternating Saturdays between 10:00AM and 10:00PM. There is a fee of 500$$ for entering elections.<br>\
+		Члены городского совета и губернатор избираются на двухнедельный срок, выборы проходят по субботам с 10:00 утра до 10:00 вечера. За участие в выборах взимается плата в размере 500$.<br>\
 		<br>\
-		The City Council is responsible for the creation of all new laws, including tax law, civil law and criminal law. The Governor is responsible for enforcing the laws of the city and appointing judges. Judges of the city are responsible for presiding over trials and managing the citizenship policy of the city.<br>\
+		Городской совет отвечает за создание всех новых законов, включая налоговое, гражданское и уголовное законодательство. Губернатор отвечает за исполнение законов города и назначает судей. Судьи города отвечают за председательство в судебных процессах и управление гражданской политикой города.<br>\
 		<br>\
 		The city government is divided into such units that are created by the City Council and Governor, the Nexus City Police are the primary law enforcement and defense force of the city. The Nexus City Police are headed by a Chief of Police.<br>\
 		<br>\

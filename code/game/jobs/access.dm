@@ -2,7 +2,7 @@
 
 /obj/var/list/req_access = list()
 /obj/var/list/req_one_access = list()
-/obj/var/req_access_faction = ""
+/obj/var/req_access_faction = "nexus"
 /obj/var/req_access_personal
 /obj/var/list/req_access_personal_list = list()
 /obj/var/req_access_business

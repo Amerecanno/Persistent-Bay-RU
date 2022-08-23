@@ -9,7 +9,7 @@ GLOBAL_REAL(GLOB, /datum/controller/global_vars)
 
 /datum/controller/global_vars/New()
 	if(GLOB)
-		CRASH("Multiple instances of global variable controller created")
+		CRASH("Создано несколько экземпляров контроллера глобальной переменной")
 	GLOB = src
 
 	var/datum/controller/exclude_these = new

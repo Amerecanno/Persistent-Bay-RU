@@ -207,7 +207,7 @@ var/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 	var/list/departments
 
 	//Default faction uid
-	var/default_faction_uid = ""
+	var/default_faction_uid = "nexus"
 
 /datum/map/New()
 	if(!map_levels)
@@ -373,12 +373,12 @@ var/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 	)
 
 //This proc is called right after a new character is spawned for the first time
-//It plays the spawn cutscene and etc 
+//It plays the spawn cutscene and etc
 /datum/map/proc/on_new_spawn(var/mob/new_player/newchar)
 	return
 
-//Called by /datum/category_item/player_setup_item/physical/equipment/populate_uniforms() 
-// when the list of possible character outfit is shown to the player. Just add new clothing 
+//Called by /datum/category_item/player_setup_item/physical/equipment/populate_uniforms()
+// when the list of possible character outfit is shown to the player. Just add new clothing
 // types to the list and they'll be added to the list displayed to the current client
 /datum/map/proc/populate_uniforms(var/client/C)
 	return list()
